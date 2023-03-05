@@ -51,6 +51,7 @@ class Home1 extends State<Homepage> with TickerProviderStateMixin {
         type: BottomNavigationBarType.fixed,
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
+          BottomNavigationBarItem(icon: Icon(Icons.shopping_cart_checkout), label: 'Checkout'),
         ],
       ),
     );
